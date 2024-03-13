@@ -14,7 +14,7 @@ public class opengithubaccount {
         System.out.println(driver.getTitle());
         // Username
         driver.findElement(By.id("login_field")).sendKeys("KOUSHIKLAKKURU");
-        driver.findElement(By.id("password")).sendKeys("Koushi*2004");
+        driver.findElement(By.id("password")).sendKeys("**********");
         driver.findElement(By.name("commit")).submit();
     }
 }
